@@ -2,7 +2,7 @@ macro_vs_terminal: macro_vs_terminal {
     compatible = "zmk,behavior-macro";
     label = "macro_vs_terminal";
     #binding-cells = <0>;
-    bindings = <&kp LCTRL LSFT GRAVE>;
+    bindings = <&kp LCTRL &kp LSFT GRAVE>;
 };
 macro_m_search: macro_m_search {
     compatible = "zmk,behavior-macro";
